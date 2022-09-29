@@ -1,0 +1,559 @@
+convert;name
+Fiji;Fiji
+Tanzania;Tanzania
+bangladesh, bangladesh;Bangladesh
+Iran, Iran;Iran
+Bangladesh, Bangladesh;Bangladesh
+W. Sahara;W. Sahara
+PR China;China
+Korea, Republic of Korea;North Korea
+Russian Federation;Russia
+Korea;South Korea
+Republic of Korea b Korea, Republic of Korea;North Korea
+Republic of Korea;North Korea
+People's Republic of China;China
+UK;United Kingdom
+Singapore, Singapore;Singapore
+Pakistan, Pakistan;Pakistan
+UK, UK;United Kingdom
+Canada;Canada
+china, china;China
+The Netherlands;Netherlands
+China, China;China
+usa;United States of America
+USA;United States of America
+United States;United States of America
+United States of America;United States of America
+china, pr china;China
+China, PR China;China
+United States of America;United States of America
+Kazakhstan;Kazakhstan
+Uzbekistan;Uzbekistan
+Papua New Guinea;Papua New Guinea
+Indonesia;Indonesia
+Argentina;Argentina
+Chile;Chile
+Dem. Rep. Congo;Dem. Rep. Congo
+Somalia;Somalia
+Kenya;Kenya
+Sudan;Sudan
+Chad;Chad
+Haiti;Haiti
+Dominican Rep.;Dominican Rep.
+Russia;Russia
+Bahamas;Bahamas
+Falkland Is.;Falkland Is.
+Norway;Norway
+Greenland;Greenland
+Fr. S. Antarctic Lands;Fr. S. Antarctic Lands
+Timor-Leste;Timor-Leste
+South Africa;South Africa
+Lesotho;Lesotho
+Mexico;Mexico
+Uruguay;Uruguay
+Brazil;Brazil
+Bolivia;Bolivia
+Peru;Peru
+Colombia;Colombia
+Panama;Panama
+Costa Rica;Costa Rica
+Nicaragua;Nicaragua
+Honduras;Honduras
+El Salvador;El Salvador
+Guatemala;Guatemala
+Belize;Belize
+Venezuela;Venezuela
+Guyana;Guyana
+Suriname;Suriname
+France;France
+Ecuador;Ecuador
+Puerto Rico;Puerto Rico
+Jamaica;Jamaica
+Cuba;Cuba
+Zimbabwe;Zimbabwe
+Botswana;Botswana
+Namibia;Namibia
+Senegal;Senegal
+Mali;Mali
+Mauritania;Mauritania
+Benin;Benin
+Niger;Niger
+Nigeria;Nigeria
+Cameroon;Cameroon
+Togo;Togo
+Ghana;Ghana
+C么te d'Ivoire;C么te d'Ivoire
+Guinea;Guinea
+Guinea-Bissau;Guinea-Bissau
+Liberia;Liberia
+Sierra Leone;Sierra Leone
+Burkina Faso;Burkina Faso
+Central African Rep.;Central African Rep.
+Congo;Congo
+Gabon;Gabon
+Eq. Guinea;Eq. Guinea
+Zambia;Zambia
+Malawi;Malawi
+Mozambique;Mozambique
+eSwatini;eSwatini
+Angola;Angola
+Burundi;Burundi
+Israel;Israel
+Lebanon;Lebanon
+Madagascar;Madagascar
+Palestine;Palestine
+Gambia;Gambia
+Tunisia;Tunisia
+Algeria;Algeria
+Jordan;Jordan
+United Arab Emirates;United Arab Emirates
+Qatar;Qatar
+Kuwait;Kuwait
+Iraq;Iraq
+Oman;Oman
+Vanuatu;Vanuatu
+Cambodia;Cambodia
+Thailand;Thailand
+Laos;Laos
+Myanmar;Myanmar
+Vietnam;Vietnam
+North Korea;North Korea
+South Korea;South Korea
+Mongolia;Mongolia
+India;India
+Bangladesh;Bangladesh
+Bhutan;Bhutan
+Nepal;Nepal
+Pakistan;Pakistan
+Afghanistan;Afghanistan
+Tajikistan;Tajikistan
+Kyrgyzstan;Kyrgyzstan
+Turkmenistan;Turkmenistan
+Iran;Iran
+Syria;Syria
+Armenia;Armenia
+Sweden;Sweden
+Belarus;Belarus
+Ukraine;Ukraine
+Poland;Poland
+Austria;Austria
+Hungary;Hungary
+Moldova;Moldova
+Romania;Romania
+Lithuania;Lithuania
+Latvia;Latvia
+Estonia;Estonia
+Germany;Germany
+Bulgaria;Bulgaria
+Greece;Greece
+Turkey;Turkey
+Albania;Albania
+Croatia;Croatia
+Switzerland;Switzerland
+Luxembourg;Luxembourg
+Belgium;Belgium
+Netherlands;Netherlands
+Portugal;Portugal
+Spain;Spain
+Ireland;Ireland
+New Caledonia;New Caledonia
+Solomon Is.;Solomon Is.
+New Zealand;New Zealand
+Australia;Australia
+Sri Lanka;Sri Lanka
+China;China
+Taiwan;Taiwan
+Italy;Italy
+Denmark;Denmark
+United Kingdom;United Kingdom
+Iceland;Iceland
+Azerbaijan;Azerbaijan
+Georgia;Georgia
+Philippines;Philippines
+Malaysia;Malaysia
+Brunei;Brunei
+Slovenia;Slovenia
+Finland;Finland
+Slovakia;Slovakia
+Czechia;Czechia
+Eritrea;Eritrea
+Japan;Japan
+Paraguay;Paraguay
+Yemen;Yemen
+Saudi Arabia;Saudi Arabia
+Antarctica;Antarctica
+N. Cyprus;N. Cyprus
+Cyprus;Cyprus
+Morocco;Morocco
+Egypt;Egypt
+Libya;Libya
+Ethiopia;Ethiopia
+Djibouti;Djibouti
+Somaliland;Somaliland
+Uganda;Uganda
+Rwanda;Rwanda
+Bosnia and Herz.;Bosnia and Herz.
+Macedonia;Macedonia
+Serbia;Serbia
+Montenegro;Montenegro
+Kosovo;Kosovo
+Trinidad and Tobago;Trinidad and Tobago
+S. Sudan;S. Sudan
+fiji;Fiji
+tanzania;Tanzania
+w. sahara;W. Sahara
+canada;Canada
+united states;United States of America
+united states of america;United States of America
+united states of america;United States of America
+kazakhstan;Kazakhstan
+uzbekistan;Uzbekistan
+papua new guinea;Papua New Guinea
+indonesia;Indonesia
+argentina;Argentina
+chile;Chile
+dem. rep. congo;Dem. Rep. Congo
+somalia;Somalia
+kenya;Kenya
+sudan;Sudan
+chad;Chad
+haiti;Haiti
+dominican rep.;Dominican Rep.
+russia;Russia
+bahamas;Bahamas
+falkland is.;Falkland Is.
+norway;Norway
+greenland;Greenland
+fr. s. antarctic lands;Fr. S. Antarctic Lands
+timor-leste;Timor-Leste
+south africa;South Africa
+lesotho;Lesotho
+mexico;Mexico
+uruguay;Uruguay
+brazil;Brazil
+bolivia;Bolivia
+peru;Peru
+colombia;Colombia
+panama;Panama
+costa rica;Costa Rica
+nicaragua;Nicaragua
+honduras;Honduras
+el salvador;El Salvador
+guatemala;Guatemala
+belize;Belize
+venezuela;Venezuela
+guyana;Guyana
+suriname;Suriname
+france;France
+ecuador;Ecuador
+puerto rico;Puerto Rico
+jamaica;Jamaica
+cuba;Cuba
+zimbabwe;Zimbabwe
+botswana;Botswana
+namibia;Namibia
+senegal;Senegal
+mali;Mali
+mauritania;Mauritania
+benin;Benin
+niger;Niger
+nigeria;Nigeria
+cameroon;Cameroon
+togo;Togo
+ghana;Ghana
+c愦te d'ivoire;C么te d'Ivoire
+guinea;Guinea
+guinea-bissau;Guinea-Bissau
+liberia;Liberia
+sierra leone;Sierra Leone
+burkina faso;Burkina Faso
+central african rep.;Central African Rep.
+congo;Congo
+gabon;Gabon
+eq. guinea;Eq. Guinea
+zambia;Zambia
+malawi;Malawi
+mozambique;Mozambique
+eswatini;eSwatini
+angola;Angola
+burundi;Burundi
+israel;Israel
+lebanon;Lebanon
+madagascar;Madagascar
+palestine;Palestine
+gambia;Gambia
+tunisia;Tunisia
+algeria;Algeria
+jordan;Jordan
+united arab emirates;United Arab Emirates
+qatar;Qatar
+kuwait;Kuwait
+iraq;Iraq
+oman;Oman
+vanuatu;Vanuatu
+cambodia;Cambodia
+thailand;Thailand
+laos;Laos
+myanmar;Myanmar
+vietnam;Vietnam
+north korea;North Korea
+south korea;South Korea
+mongolia;Mongolia
+india;India
+bangladesh;Bangladesh
+bhutan;Bhutan
+nepal;Nepal
+pakistan;Pakistan
+afghanistan;Afghanistan
+tajikistan;Tajikistan
+kyrgyzstan;Kyrgyzstan
+turkmenistan;Turkmenistan
+iran;Iran
+syria;Syria
+armenia;Armenia
+sweden;Sweden
+belarus;Belarus
+ukraine;Ukraine
+poland;Poland
+austria;Austria
+hungary;Hungary
+moldova;Moldova
+romania;Romania
+lithuania;Lithuania
+latvia;Latvia
+estonia;Estonia
+germany;Germany
+bulgaria;Bulgaria
+greece;Greece
+turkey;Turkey
+albania;Albania
+croatia;Croatia
+switzerland;Switzerland
+luxembourg;Luxembourg
+belgium;Belgium
+netherlands;Netherlands
+portugal;Portugal
+spain;Spain
+ireland;Ireland
+new caledonia;New Caledonia
+solomon is.;Solomon Is.
+new zealand;New Zealand
+australia;Australia
+sri lanka;Sri Lanka
+china;China
+taiwan;Taiwan
+italy;Italy
+denmark;Denmark
+united kingdom;United Kingdom
+iceland;Iceland
+azerbaijan;Azerbaijan
+georgia;Georgia
+philippines;Philippines
+malaysia;Malaysia
+brunei;Brunei
+slovenia;Slovenia
+finland;Finland
+slovakia;Slovakia
+czechia;Czechia
+eritrea;Eritrea
+japan;Japan
+paraguay;Paraguay
+yemen;Yemen
+saudi arabia;Saudi Arabia
+antarctica;Antarctica
+n. cyprus;N. Cyprus
+cyprus;Cyprus
+morocco;Morocco
+egypt;Egypt
+libya;Libya
+ethiopia;Ethiopia
+djibouti;Djibouti
+somaliland;Somaliland
+uganda;Uganda
+rwanda;Rwanda
+bosnia and herz.;Bosnia and Herz.
+macedonia;Macedonia
+serbia;Serbia
+montenegro;Montenegro
+kosovo;Kosovo
+trinidad and tobago;Trinidad and Tobago
+s. sudan;S. Sudan
+FIJI;Fiji
+TANZANIA;Tanzania
+W. SAHARA;W. Sahara
+CANADA;Canada
+UNITED STATES;United States of America
+UNITED STATES OF AMERICA;United States of America
+UNITED STATES OF AMERICA;United States of America
+KAZAKHSTAN;Kazakhstan
+UZBEKISTAN;Uzbekistan
+PAPUA NEW GUINEA;Papua New Guinea
+INDONESIA;Indonesia
+ARGENTINA;Argentina
+CHILE;Chile
+DEM. REP. CONGO;Dem. Rep. Congo
+SOMALIA;Somalia
+KENYA;Kenya
+SUDAN;Sudan
+CHAD;Chad
+HAITI;Haiti
+DOMINICAN REP.;Dominican Rep.
+RUSSIA;Russia
+BAHAMAS;Bahamas
+FALKLAND IS.;Falkland Is.
+NORWAY;Norway
+GREENLAND;Greenland
+FR. S. ANTARCTIC LANDS;Fr. S. Antarctic Lands
+TIMOR-LESTE;Timor-Leste
+SOUTH AFRICA;South Africa
+LESOTHO;Lesotho
+MEXICO;Mexico
+URUGUAY;Uruguay
+BRAZIL;Brazil
+BOLIVIA;Bolivia
+PERU;Peru
+COLOMBIA;Colombia
+PANAMA;Panama
+COSTA RICA;Costa Rica
+NICARAGUA;Nicaragua
+HONDURAS;Honduras
+EL SALVADOR;El Salvador
+GUATEMALA;Guatemala
+BELIZE;Belize
+VENEZUELA;Venezuela
+GUYANA;Guyana
+SURINAME;Suriname
+FRANCE;France
+ECUADOR;Ecuador
+PUERTO RICO;Puerto Rico
+JAMAICA;Jamaica
+CUBA;Cuba
+ZIMBABWE;Zimbabwe
+BOTSWANA;Botswana
+NAMIBIA;Namibia
+SENEGAL;Senegal
+MALI;Mali
+MAURITANIA;Mauritania
+BENIN;Benin
+NIGER;Niger
+NIGERIA;Nigeria
+CAMEROON;Cameroon
+TOGO;Togo
+GHANA;Ghana
+C么TE D'IVOIRE;C么te d'Ivoire
+GUINEA;Guinea
+GUINEA-BISSAU;Guinea-Bissau
+LIBERIA;Liberia
+SIERRA LEONE;Sierra Leone
+BURKINA FASO;Burkina Faso
+CENTRAL AFRICAN REP.;Central African Rep.
+CONGO;Congo
+GABON;Gabon
+EQ. GUINEA;Eq. Guinea
+ZAMBIA;Zambia
+MALAWI;Malawi
+MOZAMBIQUE;Mozambique
+ESWATINI;eSwatini
+ANGOLA;Angola
+BURUNDI;Burundi
+ISRAEL;Israel
+LEBANON;Lebanon
+MADAGASCAR;Madagascar
+PALESTINE;Palestine
+GAMBIA;Gambia
+TUNISIA;Tunisia
+ALGERIA;Algeria
+JORDAN;Jordan
+UNITED ARAB EMIRATES;United Arab Emirates
+QATAR;Qatar
+KUWAIT;Kuwait
+IRAQ;Iraq
+OMAN;Oman
+VANUATU;Vanuatu
+CAMBODIA;Cambodia
+THAILAND;Thailand
+LAOS;Laos
+MYANMAR;Myanmar
+VIETNAM;Vietnam
+NORTH KOREA;North Korea
+SOUTH KOREA;South Korea
+MONGOLIA;Mongolia
+INDIA;India
+BANGLADESH;Bangladesh
+BHUTAN;Bhutan
+NEPAL;Nepal
+PAKISTAN;Pakistan
+AFGHANISTAN;Afghanistan
+TAJIKISTAN;Tajikistan
+KYRGYZSTAN;Kyrgyzstan
+TURKMENISTAN;Turkmenistan
+IRAN;Iran
+SYRIA;Syria
+ARMENIA;Armenia
+SWEDEN;Sweden
+BELARUS;Belarus
+UKRAINE;Ukraine
+POLAND;Poland
+AUSTRIA;Austria
+HUNGARY;Hungary
+MOLDOVA;Moldova
+ROMANIA;Romania
+LITHUANIA;Lithuania
+LATVIA;Latvia
+ESTONIA;Estonia
+GERMANY;Germany
+BULGARIA;Bulgaria
+GREECE;Greece
+TURKEY;Turkey
+ALBANIA;Albania
+CROATIA;Croatia
+SWITZERLAND;Switzerland
+LUXEMBOURG;Luxembourg
+BELGIUM;Belgium
+NETHERLANDS;Netherlands
+PORTUGAL;Portugal
+SPAIN;Spain
+IRELAND;Ireland
+NEW CALEDONIA;New Caledonia
+SOLOMON IS.;Solomon Is.
+NEW ZEALAND;New Zealand
+AUSTRALIA;Australia
+SRI LANKA;Sri Lanka
+CHINA;China
+TAIWAN;Taiwan
+ITALY;Italy
+DENMARK;Denmark
+UNITED KINGDOM;United Kingdom
+ICELAND;Iceland
+AZERBAIJAN;Azerbaijan
+GEORGIA;Georgia
+PHILIPPINES;Philippines
+MALAYSIA;Malaysia
+BRUNEI;Brunei
+SLOVENIA;Slovenia
+FINLAND;Finland
+SLOVAKIA;Slovakia
+CZECHIA;Czechia
+ERITREA;Eritrea
+JAPAN;Japan
+PARAGUAY;Paraguay
+YEMEN;Yemen
+SAUDI ARABIA;Saudi Arabia
+ANTARCTICA;Antarctica
+N. CYPRUS;N. Cyprus
+CYPRUS;Cyprus
+MOROCCO;Morocco
+EGYPT;Egypt
+LIBYA;Libya
+ETHIOPIA;Ethiopia
+DJIBOUTI;Djibouti
+SOMALILAND;Somaliland
+UGANDA;Uganda
+RWANDA;Rwanda
+BOSNIA AND HERZ.;Bosnia and Herz.
+MACEDONIA;Macedonia
+SERBIA;Serbia
+MONTENEGRO;Montenegro
+KOSOVO;Kosovo
+TRINIDAD AND TOBAGO;Trinidad and Tobago
+S. SUDAN;S. Sudan

@@ -1,0 +1,121 @@
+<html>
+<head>
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-network@latest/styles/vis-network.css" type="text/css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis-network@latest/dist/vis-network.min.js"> </script>-->
+
+<link rel="stylesheet" href="../../dependencies/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../../dependencies/vis.js"> </script>
+
+<center>
+<h1>Similarity Graph: this graph shows you similarity across articles.</h1>
+</center>
+
+
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"borderWidth": 1, "borderWidthSelected": 2, "id": "4C25A78B641B4D889D8DDBF75ABBDE2A", "label": "Node ID: 4C25", "shape": "dot", "size": 1, "title": "ARTICLE INFORMATION:\n                            TITLE:Microstructural characterisation of thermally degr...\n                            DATE:nan\n                            NUMBER AUTHORS:3\n                            NUMBER CITATIONS:33\n                            DOI:10.1179/1743284713Y.0000000432\n                            FILE NAME:1743284713Y.0000000432.pdf", "value": 1}, {"borderWidth": 1, "borderWidthSelected": 2, "id": "6E38614CA3ED97B2D2DDCDFE1BC3A419", "label": "Node ID: 6E38", "shape": "dot", "size": 1, "title": "ARTICLE INFORMATION:\n                            TITLE:Constitutive model for vanadium microalloyed steel...\n                            DATE:nan\n                            NUMBER AUTHORS:2\n                            NUMBER CITATIONS:20\n                            DOI:10.1179/026708304225022034\n                            FILE NAME:026708304225022034.pdf", "value": 1}, {"borderWidth": 1, "borderWidthSelected": 2, "id": "1E72CDF578A5077D181F80DA5CE00A1A", "label": "Node ID: 1E72", "shape": "dot", "size": 1, "title": "ARTICLE INFORMATION:\n                            TITLE:Artificial neural network modelling to predict hot...\n                            DATE:nan\n                            NUMBER AUTHORS:4\n                            NUMBER CITATIONS:17\n                            DOI:10.1179/1743284713Y.0000000411\n                            FILE NAME:1743284713Y.0000000411.pdf", "value": 1}, {"borderWidth": 1, "borderWidthSelected": 2, "id": "BCCD35E91A8596F58C5F38FC10F060BC", "label": "Node ID: BCCD", "shape": "dot", "size": 1, "title": "ARTICLE INFORMATION:\n                            TITLE:Modelling correlation between alloy composition an...\n                            DATE:nan\n                            NUMBER AUTHORS:4\n                            NUMBER CITATIONS:23\n                            DOI:10.1179/174328405X36557\n                            FILE NAME:174328405X36557.pdf", "value": 1}, {"borderWidth": 1, "borderWidthSelected": 2, "id": "353A5D15FDB416FA7A8E9D294E5F7734", "label": "Node ID: 353A", "shape": "dot", "size": 1, "title": "ARTICLE INFORMATION:\n                            TITLE:New model of microstructural evolution during isot...\n                            DATE:nan\n                            NUMBER AUTHORS:2\n                            NUMBER CITATIONS:1\n                            DOI:10.1179/026708301225000617\n                            FILE NAME:026708301225000617.pdf", "value": 1}, {"borderWidth": 1, "borderWidthSelected": 2, "id": "B29ED0C3750D77545D7EDB6CFC39B36A", "label": "Node ID: B29E", "shape": "dot", "size": 1, "title": "ARTICLE INFORMATION:\n                            TITLE:Stretch-flangeability of strong multiphase steels\n                            DATE:nan\n                            NUMBER AUTHORS:2\n                            NUMBER CITATIONS:27\n                            DOI:10.1179/174328407X179511\n                            FILE NAME:174328407X179511.pdf", "value": 1}, {"borderWidth": 1, "borderWidthSelected": 2, "id": "9A0762D96BFD98199F5198BFAF78F3A4", "label": "Node ID: 9A07", "shape": "dot", "size": 1, "title": "ARTICLE INFORMATION:\n                            TITLE:d TRIP steel\n                            DATE:nan\n                            NUMBER AUTHORS:3\n                            NUMBER CITATIONS:54\n                            DOI:10.1179/174328407X179746\n                            FILE NAME:174328407X179746.pdf", "value": 1}, {"borderWidth": 1, "borderWidthSelected": 2, "id": "FD659C684F2158EA783A96D934CE179F", "label": "Node ID: FD65", "shape": "dot", "size": 1, "title": "ARTICLE INFORMATION:\n                            TITLE:Adaptive numerical modelling of high temperature s...\n                            DATE:nan\n                            NUMBER AUTHORS:5\n                            NUMBER CITATIONS:14\n                            DOI:10.1179/174328407X244013\n                            FILE NAME:174328407X244013.pdf", "value": 1}, {"borderWidth": 1, "borderWidthSelected": 2, "id": "6796A37F9A61A4CC26B31AC7066EBBD3", "label": "Node ID: 6796", "shape": "dot", "size": 1, "title": "ARTICLE INFORMATION:\n                            TITLE:Analysis of effect of alloying elements on martens...\n                            DATE:nan\n                            NUMBER AUTHORS:4\n                            NUMBER CITATIONS:33\n                            DOI:10.1179/026708303225001902\n                            FILE NAME:026708303225001902.pdf", "value": 1}, {"borderWidth": 1, "borderWidthSelected": 2, "id": "52B489CCBA0C6B7F39BA22EBFEEE4B1F", "label": "Node ID: 52B4", "shape": "dot", "size": 1, "title": "ARTICLE INFORMATION:\n                            TITLE:Microstructure simulation of copper tube and its a...\n                            DATE:nan\n                            NUMBER AUTHORS:5\n                            NUMBER CITATIONS:18\n                            DOI:10.1179/174328407X185848\n                            FILE NAME:174328407X185848.pdf", "value": 1}, {"borderWidth": 1, "borderWidthSelected": 2, "id": "D8DBD834EA0983B83E02321DA2128633", "label": "Node ID: D8DB", "shape": "dot", "size": 1, "title": "ARTICLE INFORMATION:\n                            TITLE:Prediction of martensite start temperature\n                            DATE:nan\n                            NUMBER AUTHORS:1\n                            NUMBER CITATIONS:34\n                            DOI:10.1179/1743284714Y.0000000714\n                            FILE NAME:1743284714Y.0000000714.pdf", "value": 1}]);
+        edges = new vis.DataSet([{"from": "1E72CDF578A5077D181F80DA5CE00A1A", "title": "0.6", "to": "6E38614CA3ED97B2D2DDCDFE1BC3A419", "value": 0.6}, {"from": "D8DBD834EA0983B83E02321DA2128633", "title": "0.5", "to": "FD659C684F2158EA783A96D934CE179F", "value": 0.5}, {"from": "9A0762D96BFD98199F5198BFAF78F3A4", "title": "0.4", "to": "BCCD35E91A8596F58C5F38FC10F060BC", "value": 0.4}, {"from": "6796A37F9A61A4CC26B31AC7066EBBD3", "title": "0.4", "to": "9A0762D96BFD98199F5198BFAF78F3A4", "value": 0.4}, {"from": "6796A37F9A61A4CC26B31AC7066EBBD3", "title": "0.3", "to": "52B489CCBA0C6B7F39BA22EBFEEE4B1F", "value": 0.3}, {"from": "353A5D15FDB416FA7A8E9D294E5F7734", "title": "0.3", "to": "52B489CCBA0C6B7F39BA22EBFEEE4B1F", "value": 0.3}, {"from": "6796A37F9A61A4CC26B31AC7066EBBD3", "title": "0.3", "to": "BCCD35E91A8596F58C5F38FC10F060BC", "value": 0.3}, {"from": "4C25A78B641B4D889D8DDBF75ABBDE2A", "title": "0.3", "to": "353A5D15FDB416FA7A8E9D294E5F7734", "value": 0.3}, {"from": "4C25A78B641B4D889D8DDBF75ABBDE2A", "title": "0.3", "to": "52B489CCBA0C6B7F39BA22EBFEEE4B1F", "value": 0.3}, {"from": "BCCD35E91A8596F58C5F38FC10F060BC", "title": "0.3", "to": "D8DBD834EA0983B83E02321DA2128633", "value": 0.3}, {"from": "9A0762D96BFD98199F5198BFAF78F3A4", "title": "0.3", "to": "B29ED0C3750D77545D7EDB6CFC39B36A", "value": 0.3}, {"from": "FD659C684F2158EA783A96D934CE179F", "title": "0.3", "to": "6E38614CA3ED97B2D2DDCDFE1BC3A419", "value": 0.3}, {"from": "353A5D15FDB416FA7A8E9D294E5F7734", "title": "0.3", "to": "6796A37F9A61A4CC26B31AC7066EBBD3", "value": 0.3}, {"from": "353A5D15FDB416FA7A8E9D294E5F7734", "title": "0.2", "to": "FD659C684F2158EA783A96D934CE179F", "value": 0.2}, {"from": "1E72CDF578A5077D181F80DA5CE00A1A", "title": "0.2", "to": "52B489CCBA0C6B7F39BA22EBFEEE4B1F", "value": 0.2}, {"from": "1E72CDF578A5077D181F80DA5CE00A1A", "title": "0.2", "to": "353A5D15FDB416FA7A8E9D294E5F7734", "value": 0.2}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 360
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
