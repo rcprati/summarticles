@@ -21,7 +21,8 @@ To run summarticles, run
 
 ```
 docker run -t --rm --init -p 8080:8070 -p 8081:8071 --memory="9g" lfoppiano/grobid:0.7.1 &
-cd notebooks
+conda activate summarticles
+cd summarticles/notebooks
 streamlit run summarticles.py
 ```
 
